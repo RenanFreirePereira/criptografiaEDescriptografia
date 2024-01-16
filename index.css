@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Nanum+Gothic&family=Nanum+Myeongjo:wght@700&display=swap');
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color:rgb(246, 253, 255);
+}
+
+#recepcao{
+    border:0.2vw solid rgb(0, 41, 175);
+    border:0.2vw solid rgb(0, 41, 175);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 25vh auto;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+#opcoes{
+    margin-top: 1vw;
+}
+.areaEntrada{
+    margin: 8vh auto;
+    padding: 2vw;
+    color: rgb(0, 53, 99);
+    border-radius: 1vw;
+    display: none;
+} 
+label{
+    font-family: 'Nanum Myeongjo', serif;
+
+}
+
+
+
+@media screen and (min-width: 801px) {
+
+        #recepcao{
+
+            width: 820px;
+            height: 300px;
+
+        }
+
+        
+        .areaEntrada{
+            width: 65vw;
+            height: 80vh;
+            background-color: rgb(230, 236, 255);
+            font-size: 2vw;
+            border:0.2vw solid rgb(0, 41, 175);
+        }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #recepcao{
+
+        width: 90vw;
+        height: 40vh;
+        padding-left: 3vw;
+
+    }
+
+    h1{
+        font-size: 6vw;
+    }
+
+    #criptografarbnt{
+        margin-bottom: 2vw;
+    }
+    #descriptografarbnt, #criptografarbnt{
+        width: 70vw;
+    }
+
+
+
+    label{
+        font-size: 6vw;
+    }
+
+    .areaEntrada{
+        width: 95vw;
+        height: 80vh;
+        background-color: rgb(230, 236, 255);
+        font-size: 2vw;
+        border:0.2vw solid rgb(0, 41, 175);
+    }
+
+
+}
+
+
+
+
